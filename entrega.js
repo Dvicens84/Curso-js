@@ -1,5 +1,6 @@
-let nombre = prompt ("ingresa tu nombre ");
 
+
+let nombre = prompt ("ingresa tu nombre");
 let coma = ", " ;
 let hola = "bienvenido   ";
 let mensaje = hola + nombre ;
@@ -10,8 +11,7 @@ alert (mensaje)
 alert ("Quieres Jugar??")
 
 let juego = prompt ("SI o NO")
-let aceptar = Si = SI = S = si = s 
-if (juego == aceptar )
+if (juego == "si" || juego ==  "SI"|| juego == "Si"||juego == "S"|| juego == "s" )
 {
     alert ("Adivina el numero")
 
